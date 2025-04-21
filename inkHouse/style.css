@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(225, 237, 230, 1);
+    height: 100px;
+} 
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.logo a{
+    color: rgba(89, 141, 102, 1);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header-navigation-panel {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-navigation-panel a{
+    color: rgba(44, 45, 53, 1);
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
