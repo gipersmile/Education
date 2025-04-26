@@ -1,15 +1,16 @@
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgba(225, 237, 230, 1);
     height: 100px;
+    padding-left: 6%;
+    padding-right: 6%;
 } 
 
 .logo{
     display: flex;
     align-items: center;
     gap: 8px;
-    
 }
 
 .logo a{
@@ -17,6 +18,9 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 20px;
+}
+.logo a:hover{
+    color: rgb(164, 214, 177);
 }
 
 .header-navigation-panel {
@@ -31,3 +35,187 @@
     font-weight: 500;
     font-size: 20px;
 }
+.header-navigation-panel a:hover{
+    font-weight: 700; 
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(134, 146, 139, 1);
+}
+.main-info h1{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    font-size: 60px;
+}
+.main-info span{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(89, 141, 102, 1);
+    font-size: 60px;
+}
+
+
+.main-button {
+    margin-top: 60px;
+    gap: 6px;
+    padding: 20px 60px 20px 60px;
+    border: 1px solid rgba(89, 141, 102, 1) ;
+    height: 65px;
+    color:rgba(89, 141, 102, 1);
+}
+
+.main-button:active {
+    background-color: rgba(55, 107, 68, 1);
+    color:rgba(255, 255, 255, 1);
+}
+
+.main-button:focus {
+    background-color: rgba(212, 232, 217, 1);
+    color: rgba(89, 141, 102, 1);
+}
+
+.main-button:hover {
+    background-color: rgba(89, 141, 102, 1); 
+    color:rgba(244, 246, 245, 1);
+}
+
+.reproduction-div{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.reproduction-header{
+    display: flex;
+    justify-content: space-between;
+}
+.reproduction-header h1{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    font-size: 40px;
+}
+
+.change-buttons{
+    display: flex;
+    gap: 20px;
+}
+
+.country-button{
+   background-color: rgba(212, 232, 217, 1);
+   color: rgba(44, 45, 53, 1);
+   padding: 10px 20px 10px 20px;
+   gap:10px;
+   border-radius: 20px;
+   font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: 2px solid white;
+}
+.country-button:hover{
+    background-color: rgba(89, 141, 102, 1);
+    color: rgba(244, 246, 245, 1);
+    padding: 10px 20px 10px 20px;
+    gap:10px;
+    border-radius: 20px;
+ }
+ .country-button:active{
+    background-color: rgba(55, 107, 68, 1);
+    color: rgba(244, 246, 245, 1);
+    padding: 10px 20px 10px 20px;
+    gap:10px;
+    border-radius: 20px;
+    
+ }
+ .country-button:focus{
+    background-color: rgba(212, 232, 217, 1);
+    color: rgba(44, 45, 53, 1);
+    padding: 10px 20px 10px 20px;
+    gap:10px;
+    border-radius: 20px;
+    border: 2px solid rgba(89, 141, 102, 1);
+ }
+
+.reproductions-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 730px;
+    background-color:rgba(225, 237, 230, 1) ;
+    margin-bottom: 30px;
+}
+.reproductions-catalog img {
+    width: 310px;
+    height: 422px;
+    margin-bottom: 20px;
+}
+.reproductions-main-button{
+    width: 310px;
+    height: 65px;
+    gap: 6px;
+    padding: 20px 60px 20px 60px;
+    border: 1px solid rgba(89, 141, 102, 1) ;
+    height: 65px;
+    color:rgba(89, 141, 102, 1);
+}
+
+.reproductions-catalog{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reproductions-item-div-price{
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 20px;
+}
+
+.reproductions-item-info{
+    margin-top: 20px;
+}
+
+.reproductions-item-price{
+    margin-bottom: 20px;
+}
+
+.authors-name{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+}
+
+.reproductions-item-name{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    font-size: 30px;
+}
+
+.reproductions-item-type{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(44, 45, 53, 1);
+    font-size: 18px;
+}
+
+.reproductions-item-price{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    color: rgba(89, 141, 102, 1);
+    font-size: 24px;
+}
+
+
