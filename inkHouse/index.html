@@ -1,122 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="logo">
-            <img src="./imgs/Star 1.png" alt="logo-pic" >
-            <a href="#">Ink.House</a>
+      <div class="container container-header">
+        <a href="#" class="logo">
+          <img src="./imgs/Star 1.png" alt="logo-pic" />
+          <p>Ink.House</p>
+        </a>
+        <div class="header-navigation-panel-mobile">
+          <a href="#" height="24px" width="24px" class="list-icon"
+            ><img src="./imgs/List.png" alt="list-pic"
+          /></a>
+
+          <a href="#" height="24px" width="24px" class="cart-icon"
+            ><img src="./imgs/shopping-cart.png" alt="cart-pic"
+          /></a>
         </div>
-        <nav class="header-navigation-panel">
-            <a href="#">Репродукция</a>
-            <a href="#">Новинки</a>
-            <a href="#">О нас</a>
-            <a href="#" height="24px" width="24px" class="cart-icon"><img src="./imgs/shopping-cart.png" alt="cart-pic"></a>
+        <nav>
+          <ul class="header-navigation-panel">
+            <li><a href="#">Репродукция</a></li>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">О нас</a></li>
+            <li>
+              <a href="#" height="24px" width="24px" class="cart-icon"
+                ><img src="./imgs/shopping-cart.png" alt="cart-pic"
+              /></a>
+            </li>
+          </ul>
         </nav>
+      </div>
     </header>
     <main>
-        <div class="main-info">
-        <img src="./imgs/bird.png" alt="bird">
-        <div class="main-info-content">
-            <h1>Реплики картин</br>от<span> Ink. House</span></h1>
-            <p>Высокое качество отрисовки на плотной бумаге или льняном</br> холсте. Редкие произведения, доступные цены.</p>
-            <button class="main-button">Продукция</button>
+      <div class="main-info container">
+        <div class="container-main-info-content">
+          <div class="main-info-content">
+            <h1>Реплики картин<br />от<span> Ink. House</span></h1>
+            <p>
+              Высокое качество отрисовки на плотной бумаге или льняном<br />
+              холсте. Редкие произведения, доступные цены.
+            </p>
+            <button class="button main-button">Продукция</button>
+          </div>
         </div>
-    </div>
-        <div class="reproduction-div"> 
-            <header class="reproduction-header">
-                <h2>Репродукции</h2>
-                <div class="change-buttons">
-                    <button class="country-button">Франция</button>
-                    <button class="country-button">Германия</button>
-                    <button class="country-button">Англия</button>
-                </div>
-            </header>
-            <div class="reproductions-catalog">
-                <div class="reproductions-item">
-                    <div class="reproductions-item-info">
-                        <img src="./imgs/Amurs Hunter.jpg">
-                        <p class="authors-name">Марсель Руссо</p>
-                        <h1 class="reproductions-item-name">Охота Амура</h1>
-                        <p class="reproductions-item-type">Холст, масло (50х80)</p>
-                    </div>
-                    <div class="reproductions-item-div-price">
-                        <p class="reproductions-item-price">14 500 руб</p>
-                        <button class="reproductions-main-button">В корзину</button>
-                    </div>
-                </div>
-                <div class="reproductions-item">
-                    <div class="reproductions-item-info">
-                        <img src="./imgs/Lady with dog.jpg">
-                        <p class="authors-name">Анри Селин</p>
-                        <h1 class="reproductions-item-name">Дама с собачкой</h1>
-                        <p class="reproductions-item-type">Акрил, бумага (50х80) </p>
-                    </div>
-                    <div class="reproductions-item-div-price">
-                        <p class="reproductions-item-price">16 500 руб</p>
-                        <button class="reproductions-main-button">В корзину</button>
-                    </div>
-                </div>
-                <div class="reproductions-item">
-                    <div class="reproductions-item-info">
-                        <img src="./imgs/Procedure.jpg">
-                        <p class="authors-name">Франсуа Дюпон</p>
-                        <h1 class="reproductions-item-name">Процедура</h1>
-                        <p class="reproductions-item-type">Цветная литография (40х60)</p>
-                    </div>
-                    <div class="reproductions-item-div-price">
-                        <p class="reproductions-item-price">20 000 руб</p>
-                        <button class="reproductions-main-button">В корзину</button>
-                    </div>
-                </div>
-                <div class="reproductions-item">
-                    <div class="reproductions-item-info">
-                        <img src="./imgs/Rose.jpg">
-                        <p class="authors-name">Луи Детуш</p>
-                        <h1 class="reproductions-item-name">Роза</h1>
-                        <p class="reproductions-item-type">Бумага, акрил (50х80) </p>
-                    </div>
-                    <div class="reproductions-item-div-price">
-                        <p class="reproductions-item-price">12 000 руб</p>
-                        <button class="reproductions-main-button">В корзину</button>
-                    </div>
-                </div>
-                <div class="reproductions-item">
-                    <div class="reproductions-item-info">
-                        <img src="./imgs/Birds dinner.jpg">
-                        <p class="authors-name">Франсуа Дюпон</p>
-                        <h1 class="reproductions-item-name">Птичья трапеза</h1>
-                        <p class="reproductions-item-type">Цветная литография (40х60)</p>
-                    </div>
-                    <div class="reproductions-item-div-price">
-                        <p class="reproductions-item-price">22 500 руб</p>
-                        <button class="reproductions-main-button">В корзину</button>
-                    </div>
-                </div>
-                <div class="reproductions-item">
-                    <div class="reproductions-item-info">
-                        <img src="./imgs/Landscape with fish.jpg">
-                        <p class="authors-name">Пьер Моранж</p>
-                        <h1 class="reproductions-item-name">Пейзаж с рыбой</h1>
-                        <p class="reproductions-item-type">Цветная литография (40х60)</p>
-                    </div>
-                    <div class="reproductions-item-div-price">
-                        <p class="reproductions-item-price">20 000 руб</p>
-                        <button class="reproductions-main-button">В корзину</button>
-                    </div>
-                </div>
+      </div>
+      <div class="reproduction-div container">
+        <header class="reproduction-header">
+          <h2>Репродукции</h2>
+          <div class="change-buttons">
+            <button class="button country-button">Франция</button>
+            <button class="button country-button">Германия</button>
+            <button class="button country-button">Англия</button>
+          </div>
+        </header>
+        <div class="reproductions-catalog">
+          <div class="reproductions-item">
+            <div class="reproductions-item-info">
+              <img src="./imgs/Amurs Hunter.jpg" />
+              <p class="authors-name">Марсель Руссо</p>
+              <h1 class="reproductions-item-name">Охота Амура</h1>
+              <p class="reproductions-item-type">Холст, масло (50х80)</p>
             </div>
+            <div class="reproductions-item-div-price">
+              <p class="reproductions-item-price">14 500 руб</p>
+              <button class="button reproductions-main-button">
+                В корзину
+              </button>
+            </div>
+          </div>
+          <div class="reproductions-item">
+            <div class="reproductions-item-info">
+              <img src="./imgs/Lady with dog.jpg" />
+              <p class="authors-name">Анри Селин</p>
+              <h1 class="reproductions-item-name">Дама с собачкой</h1>
+              <p class="reproductions-item-type">Акрил, бумага (50х80)</p>
+            </div>
+            <div class="reproductions-item-div-price">
+              <p class="reproductions-item-price">16 500 руб</p>
+              <button class="button reproductions-main-button">
+                В корзину
+              </button>
+            </div>
+          </div>
+          <div class="reproductions-item">
+            <div class="reproductions-item-info">
+              <img src="./imgs/Procedure.jpg" />
+              <p class="authors-name">Франсуа Дюпон</p>
+              <h1 class="reproductions-item-name">Процедура</h1>
+              <p class="reproductions-item-type">Цветная литография (40х60)</p>
+            </div>
+            <div class="reproductions-item-div-price">
+              <p class="reproductions-item-price">20 000 руб</p>
+              <button class="button reproductions-main-button">
+                В корзину
+              </button>
+            </div>
+          </div>
+          <div class="reproductions-item">
+            <div class="reproductions-item-info">
+              <img src="./imgs/Rose.jpg" />
+              <p class="authors-name">Луи Детуш</p>
+              <h1 class="reproductions-item-name">Роза</h1>
+              <p class="reproductions-item-type">Бумага, акрил (50х80)</p>
+            </div>
+            <div class="reproductions-item-div-price">
+              <p class="reproductions-item-price">12 000 руб</p>
+              <button class="button reproductions-main-button">
+                В корзину
+              </button>
+            </div>
+          </div>
+          <div class="reproductions-item">
+            <div class="reproductions-item-info">
+              <img src="./imgs/Birds dinner.jpg" />
+              <p class="authors-name">Франсуа Дюпон</p>
+              <h1 class="reproductions-item-name">Птичья трапеза</h1>
+              <p class="reproductions-item-type">Цветная литография (40х60)</p>
+            </div>
+            <div class="reproductions-item-div-price">
+              <p class="reproductions-item-price">22 500 руб</p>
+              <button class="button reproductions-main-button">
+                В корзину
+              </button>
+            </div>
+          </div>
+          <div class="reproductions-item">
+            <div class="reproductions-item-info">
+              <img src="./imgs/Landscape with fish.jpg" />
+              <p class="authors-name">Пьер Моранж</p>
+              <h1 class="reproductions-item-name">Пейзаж с рыбой</h1>
+              <p class="reproductions-item-type">Цветная литография (40х60)</p>
+            </div>
+            <div class="reproductions-item-div-price">
+              <p class="reproductions-item-price">20 000 руб</p>
+              <button class="button reproductions-main-button">
+                В корзину
+              </button>
+            </div>
+          </div>
         </div>
-    </main>   
+      </div>
+    </main>
     <footer></footer>
-</body>
-</html> 
+  </body>
+</html>
