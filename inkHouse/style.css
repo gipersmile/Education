@@ -20,6 +20,12 @@
 .button {
   cursor: pointer;
 }
+
+.cart-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -232,6 +238,71 @@
   color: rgba(89, 141, 102, 1);
   font-size: 24px;
 }
+.promo{
+  display: flex;
+  flex-direction: column;
+  background-image:url(./imgs/pic_background.jpg);
+  background-repeat:no-repeat ;
+  background-position: center;
+}
+
+
+
+.promo-tittle{
+  display: flex;
+  max-width: 50%;
+  max-height: 80px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: rgba(244, 246, 245, 1);
+  gap:20px;
+
+}
+
+
+
+.promo-content{
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+
+.promo-content p{
+  max-width: 50%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+}
+
+.promo-button{
+  max-width: 25%;
+  height: 65px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(44, 45, 53, 1);
+  background-color: rgba(238, 219, 109, 1);
+  margin-top: 60px;
+  gap: 6px;
+  padding: 20px 60px;
+  margin: 70px 0px;
+}
+.team{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.team-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.team-info-photos{
+  display: flex;
+  gap: 30px;
+}
+
 
 @media (max-width: 1115px) {
   .reproductions-catalog {
@@ -263,6 +334,7 @@
 
   .header-navigation-panel {
     border-top: 2px rgba(195, 209, 198, 1) solid;
+    display: none;
   }
 
   .reproduction-header {
@@ -271,31 +343,28 @@
     align-items: baseline;
     gap: 20px;
   }
-}
-
-@media (max-width: 710px) {
-  .container-header {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 320px) {
   .header {
     background-color: white;
-  }
-  .header-navigation-panel {
-    display: none;
+  padding: 0;
+}
   }
 
   .header-navigation-panel-mobile {
     display: flex;
     justify-content: space-between;
     background-color: rgba(225, 237, 230, 1);
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
   .reproductions-item {
     width: 290px;
     height: auto;
+  }
+
+}
+
+@media (max-width: 710px) {
+  .container-header {
+    flex-direction: column;
   }
 }
